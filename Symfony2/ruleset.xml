@@ -86,4 +86,8 @@
     <rule ref="Symfony2.Commenting.FunctionComment.MissingParamComment">
         <severity>0</severity>
     </rule>
+
+    <rule ref="Symfony2.Commenting.FunctionComment.SpacingAfterParamType">
+        <exclude name="Symfony2.Commenting.FunctionComment.SpacingAfterParamType"/>
+    </rule>
 </ruleset>
